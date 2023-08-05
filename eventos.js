@@ -1,4 +1,4 @@
-const div = document.getElementById("divBtn");
+const div = document.querySelector("#divBtn");
 
-div.addEventListener("click",function() {alert("Hola! Soy el div");
+div.addEventListener("click", () => {alert("Hola! Soy el div");
 });
